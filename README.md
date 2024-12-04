@@ -35,19 +35,19 @@ The folder tree in python3.10/site-packages seems like:
 
 python3.10
 
-​	|------------ ...
+&emsp;&emsp;&emsp;|------------ ...
 
-​	|------------site-packages
+&emsp;&emsp;&emsp;|------------site-packages
 
-​				|------------mmcv
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|------------mmcv
 
-​				|------------mmengine
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|------------mmengine
 
-​				|------------OABLS-Mask2former
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|------------OABLS-Mask2former
 
-​				|------------numpy
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|------------numpy
 
-​				|------------ ...
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|------------ ...
 
 In fact in our OABLS-Mask2former/modifications folder there are just some modified version of original mmsegmentation support files, so we just need to replace them with the corresponding one. If you are familiar with mmsegmentation and mmdet, you can do it mannually or revise the files with different sets. If not, you can finish the process by running some scripts listed in OABLS-Mask2former. Here are some examples: 
 
