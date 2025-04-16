@@ -1,0 +1,62 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/mmsegmentation/tools",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                // "C:\\pytorch_m\\mmsegmentation\\configs\\mask2former\\zx_mask2former_r50_8xb2-90k_cityscapes-512x1024.py","C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\mask2former_r50_8xb2-90k_cityscapes-512x1024\\batch1_best_mIoU_iter_20000.pth",
+                // "--out","C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\mask2former_r50_8xb2-90k_cityscapes-512x1024\\out",
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\data\\HRF\\images\\validation\\09_h.png",
+                //"C:\\pytorch_m\\mmsegmentation\\tools\\data\\HRF\\images\\validation\\21_256.png",
+
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\data\\cityscapes\\leftImg8bit1\\test\\berlin\\berlin_000000_000019_leftImg8bit.png",
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\data\\cityscapes\\leftImg8bit\\val\\01_53.png",
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\data\\HRF\\images\\validation\\01_53.png",
+            //    "C:\\pytorch_m\\mmsegmentation\\tools\\data\\cityscapes\\leftImg8bit\\val\\segmentation-1_66.png",
+            // "..\\tools\\data\\HRF\\images\\validation\\00000119_89.png",
+                // "C:\\pytorch_m\\mmsegmentation\\configs\\unet\\my_unet-s5-d16_fcn_4xb4-40k_stare-128x128.py",
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\data\\HRF\\images\\validation\\01_280_1.png",
+
+                // "C:\\pytorch_m\\mmsegmentation\\configs\\unet\\unet_s5-d16_deeplabv3_4xb4-40k_chase-db1-128x128.py",
+                //"C:\\pytorch_m\\mmsegmentation\\configs\\unet\\mask2former_swin-b-in22k-384x384-pre_8xb2-90k_cityscapes-512x1024.py",
+                // "/home/zhangxin/mmsegmentation/configs/unet/my_unet-s5-d16_deeplabv3_4xb4-40k_hrf-256x256.py",
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\unet-s5-d16_deeplabv3_4xb4-40k_hrf-256x256\\iter_20000.pth",
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\unet-s5-d16_deeplabv3_4xb4-40k_hrf-256x256\\20240901_104512\\iter_2000.pth",
+                // "./../tools/work_dirs/unet-s5-d16_deeplabv3_4xb4-40k_hrf-256x256/iter_4000.pth",
+                // "--out","C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\unet-s5-d16_deeplabv3_4xb4-40k_hrf-256x256\\OUT"
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\unet-s5-d16_fcn_4xb4-40k_stare-128x128\\iter_4000.pth",
+                
+                    // "/home/zhangxin/mmsegmentation/configs/unet/unet_s5-d16_deeplabv3_4xb4-40k_chase-db1-128x128.py",
+                    "/home/zhangxin/mmsegmentation/configs/mask2former/zx_mask2former_r50_8xb2-90k_cityscapes-512x1024.py",
+                // "/home/zhangxin/mmsegmentation/configs/mask2former/zx_mask2former_r50_8xb2-90k_cityscapes-512x1024.py",
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\data\\cityscapes\\leftImg8bit\\val\\segmentation-1_66.png",
+                //  "/home/zhangxin/mmsegmentation/configs/mask2former/mask2former_r50_8xb2-90k_cityscapes-512x1024.py",
+                // "C:/pytorch_m\\mmsegmentation\\configs\\mask2former\\zx_mask2former_swin-b-in22k-384x384-pre_8xb2-90k_cityscapes-512x1024.py",
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\mask2former_r50_8xb2-90k_cityscapes-512x1024\\iter_1500.pth",
+
+        //    "C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\mask2former_swin-b-in22k-384x384-pre_8xb2-90k_cityscapes-512x1024\\iter_500.pth",
+
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\mask2former_r50_8xb2-90k_cityscapes-512x1024\\batch1_best_mIoU_iter_20000.pth",
+                // "--out-file","C:\\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\mask2former_r50_8xb2-90k_cityscapes-512x1024\\out"
+                //"--save-dir",
+                //  "--out","C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\unet-s5-d16_deeplabv3_4xb4-40k_hrf-256x256\\OUT"
+                // "--work=dir",
+
+                // "--show-dir",
+                // "C:\\pytorch_m\\mmsegmentation\\tools\\work_dirs\\unet-s5-d16_fcn_4xb4-40k_stare-128x128\\out",
+                // "./../tools/work_dirs/unet-s5-d16_deeplabv3_4xb4-40k_hrf-256x256/work-dir",
+                // C:\pytorch_m\mmsegmentation\tools\work_dirs\unet-s5-d16_deeplabv3_4xb4-40k_hrf-256x256\OUT
+            ]
+        }
+    ]
+}
